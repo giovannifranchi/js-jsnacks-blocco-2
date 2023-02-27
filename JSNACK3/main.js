@@ -9,8 +9,8 @@ const invitati = [];
 
 for(let i = 0; i < 3; i++){
     let invitato;
-    let nomeInvitato = nomi[Math.floor(Math.random()* ((nomi.length - 1)- 0) + 0)];
-    let cognomeInvitato = cognomi[Math.floor(Math.random()* ((cognomi.length - 1)- 0) + 0)];
+    let nomeInvitato = nomi[Math.floor(Math.random()* ((nomi.length)- 0) + 0)];
+    let cognomeInvitato = cognomi[Math.floor(Math.random()* ((cognomi.length)- 0) + 0)];
     invitato = `${nomeInvitato} ${cognomeInvitato}`;
     invitati.push(invitato);
 }
